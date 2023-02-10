@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    border:2px solid black;
+    background-color: black;
+    border-radius: 40px 40px 0 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column ;
+    /* justify-content: space-between; */
+    justify-items: center;
+    border-radius: 0 0 40px 40px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap:500px;
+    /* justify-items: center; */
+    margin-top: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+    text-decoration: none;
+}
+.image{
+    gap:10px;
+    
+}
+li{
+    list-style: no;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+img{
+    width:50px;
+    height:30px;
+}
+.top-button{
+    background-color:#5955b3;
+    padding:4px 10px;
+    cursor:pointer;
+    color:white;
+    border-radius: 5px;
+    font-weight: 600;
+    width:120px;
+    height: 35px;
+    border-color: #5955b3;
+    font-family: "Poppins";
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    justify-items: center; */
+    padding-top: 150px;
+    align-items: center;
+    background-image: url(bg.png);
+    height: 100%;
+}
+h1{
+    font-size: 62px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal
+    
+}
+h2{
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal
+}
+h4{
+    color:white;
+    font-family: "Poppins";
+    font-style: normal
+}
+#middle-btn{
+    background-color:blueviolet;
+    margin-top: 70px;
+    cursor:pointer;
+    color:white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding:10px;
+ 
+    border-color: blueviolet;
+    font-family: "Poppins";
+
+
+}
+.border {
+    width: 1px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 63px;
+    margin-bottom: 7px;
+  }
